@@ -20,8 +20,8 @@ public class LargestOfThree {
         int largest = findLargest(firstNumber, secondNumber, thirdNumber);
 
         System.out.println();
-        System.out.println("The largest among " + firstNumber + ", " + secondNumber + 
-                         ", and " + thirdNumber + " is: " + largest);
+        System.out.println("The largest among " + firstNumber + ", " + secondNumber +
+                ", and " + thirdNumber + " is: " + largest);
     }
 
     /**
