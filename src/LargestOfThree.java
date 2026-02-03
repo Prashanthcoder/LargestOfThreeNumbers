@@ -1,8 +1,5 @@
 import java.util.Scanner;
 
-/**
- * Utility class to find the largest of three numbers.
- */
 public class LargestOfThree {
     private static final Scanner SCANNER = new Scanner(System.in);
 
@@ -12,11 +9,14 @@ public class LargestOfThree {
     public static void findLargestNumber() {
         System.out.println("=== Largest of Three Numbers ===");
         System.out.println();
-
+        int i, j, k;
         int firstNumber = getValidInput("Enter first number: ");
         int secondNumber = getValidInput("Enter second number: ");
         int thirdNumber = getValidInput("Enter third number: ");
-
+        i = 0;
+        j = 0;
+        k = 1;
+        System.out.println("The values are " + i + " " + j + " " + k);
         int largest = findLargest(firstNumber, secondNumber, thirdNumber);
 
         System.out.println();
@@ -37,7 +37,8 @@ public class LargestOfThree {
                 if (SCANNER.hasNextInt()) {
                     return SCANNER.nextInt();
                 } else {
-                    System.out.println("Invalid input! Please enter a valid integer.");
+                    System.out.println(
+                            "Invalid input! Please enter a valid integer please look at the code and validate your changes.");
                     SCANNER.nextLine(); // discard invalid input
                 }
             } catch (Exception e) {
