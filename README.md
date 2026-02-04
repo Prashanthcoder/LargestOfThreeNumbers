@@ -201,11 +201,3 @@ Run the program and try:
 
 ---
 
-## Conclusion
-
-These improvements make the code:
-- ✅ **Functional** - Actually runs without errors
-- ✅ **Reliable** - Handles edge cases gracefully
-- ✅ **Maintainable** - Easy to understand and modify
-- ✅ **Professional** - Follows Java best practices
-- ✅ **User-friendly** - Clear prompts and error messages
